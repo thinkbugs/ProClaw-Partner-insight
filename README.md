@@ -1,4 +1,4 @@
-# ProClaw-Partner-insight.skill | 优质伴侣分析技能.skill
+# ProClaw-Partner-insight.skill | 人生伴侣分析技能.skill
 
 [English](#english) | [中文](#chinese)
 
