@@ -1,112 +1,6 @@
 # ProClaw-Partner-insight.skill | 人生伴侣分析技能.skill
 
-[English](#english) | [中文](#chinese)
-
----
-
-<a name="english"></a>
-## English
-
-### Overview
-ProClaw-Partner-insight is a powerful skill for identifying partner personality patterns (Maid Type, Concubine Type, Empress Type), analyzing behavioral signals, detecting common misconceptions, and providing relationship impact assessments and decision-making support.
-
-### Features
-
-#### Three Pattern Types
-- **Maid Type (丫鬟型)**: Diligent and practical,注重细节, strong execution, but lacks strategic vision
-- **Concubine Type (妃子型)**: Refined and competitive,追求形象和认可, prone to internal conflicts
-- **Empress Type (皇后型)**: Strategic thinking, global vision, strong leadership, true strategic partner
-
-#### Core Capabilities
-- **Pattern Identification**: Identify partner's personality pattern through behavioral signals
-- **Risk Assessment**: Evaluate relationship risks and potential impacts
-- **Misconception Detection**: Detect common judgment errors and biases
-- **Decision Support**: Provide actionable recommendations for relationship decisions
-
-### Use Cases
-
-#### Case 1: Determine Relationship Pattern
-**Scenario**: User wants to understand their partner's personality pattern
-
-**Usage**:
-```bash
-# Assess partner pattern
-python scripts/assess_partner.py \
-  --supportiveness 8 \
-  --strategic_thinking 3 \
-  --execution 9 \
-  --independence 4 \
-  --conflict_resolution 5 \
-  --growth_potential 3
-```
-
-**Expected Output**:
-```json
-{
-  "pattern": "丫鬟型 (Maid Type)",
-  "risk_level": "中危 (Medium Risk)",
-  "impact": "可能拖累事业发展 (May hinder career development)",
-  "recommendations": ["培养独立思考能力", "逐步增加决策责任"]
-}
-```
-
-#### Case 2: Scan Relationship Risks
-**Scenario**: User wants to identify potential risks in their relationship
-
-**Usage**:
-```bash
-# Scan risks
-python scripts/scan_risk.py \
-  --over_dependence 8 \
-  --emotional_manipulation 3 \
-  --value_conflict 4 \
-  --communication_block 2
-```
-
-#### Case 3: Analyze Hybrid Features
-**Scenario**: User's partner shows mixed characteristics
-
-**Usage**:
-```bash
-# Analyze hybrid patterns
-python scripts/analyze_hybrid.py \
-  --maid_score 7 \
-  --concubine_score 6 \
-  --empress_score 4
-```
-
-### Skill Structure
-
-```
-ProClaw-Partner-insight/
-├── SKILL.md                    # Main entry and guide
-├── scripts/                    # Executable tools
-│   ├── assess_partner.py      # Pattern assessment
-│   ├── scan_risk.py           # Risk scanning
-│   ├── analyze_hybrid.py      # Hybrid pattern analysis
-│   └── support_decision.py    # Decision support
-├── references/                 # Reference documents
-│   ├── assessment-model.md    # Assessment model
-│   ├── decision-tree.md       # Decision tree
-│   ├── tracking-framework.md  # Tracking framework
-│   ├── hybrid-identifier.md   # Hybrid identifier
-│   ├── risk-warning-system.md # Risk warning system
-│   └── decision-matrix.md     # Decision matrix
-└── assets/                    # Resources
-    ├── templates/             # Templates
-    ├── tables/                # Tables and checklists
-    └── faq/                   # FAQ
-```
-
-### Author Information
-- **Author**: ProClaw
-- **Website**: www.proclaw.top
-- **Contact**: wechat:Mr-zifang
-- **Version**: 1.1
-
-### Version History
-- **v1.1** (2025-04-25): Added author information, renamed to ProClaw-Partner-insight
-- **v1.0** (2025-04-25): Initial release with complete pattern identification system
+[中文](#chinese) |  [English](#english) 
 
 ---
 
@@ -213,6 +107,111 @@ ProClaw-Partner-insight/
 ### 版本历史
 - **v1.1** (2025-04-25): 增加作者信息，重命名为 ProClaw-Partner-insight
 - **v1.0** (2025-04-25): 初始发布，完整的格局识别系统
+---
+
+<a name="english"></a>
+## English
+
+### Overview
+ProClaw-Partner-insight is a powerful skill for identifying partner personality patterns (Maid Type, Concubine Type, Empress Type), analyzing behavioral signals, detecting common misconceptions, and providing relationship impact assessments and decision-making support.
+
+### Features
+
+#### Three Pattern Types
+- **Maid Type (丫鬟型)**: Diligent and practical,注重细节, strong execution, but lacks strategic vision
+- **Concubine Type (妃子型)**: Refined and competitive,追求形象和认可, prone to internal conflicts
+- **Empress Type (皇后型)**: Strategic thinking, global vision, strong leadership, true strategic partner
+
+#### Core Capabilities
+- **Pattern Identification**: Identify partner's personality pattern through behavioral signals
+- **Risk Assessment**: Evaluate relationship risks and potential impacts
+- **Misconception Detection**: Detect common judgment errors and biases
+- **Decision Support**: Provide actionable recommendations for relationship decisions
+
+### Use Cases
+
+#### Case 1: Determine Relationship Pattern
+**Scenario**: User wants to understand their partner's personality pattern
+
+**Usage**:
+```bash
+# Assess partner pattern
+python scripts/assess_partner.py \
+  --supportiveness 8 \
+  --strategic_thinking 3 \
+  --execution 9 \
+  --independence 4 \
+  --conflict_resolution 5 \
+  --growth_potential 3
+```
+
+**Expected Output**:
+```json
+{
+  "pattern": "丫鬟型 (Maid Type)",
+  "risk_level": "中危 (Medium Risk)",
+  "impact": "可能拖累事业发展 (May hinder career development)",
+  "recommendations": ["培养独立思考能力", "逐步增加决策责任"]
+}
+```
+
+#### Case 2: Scan Relationship Risks
+**Scenario**: User wants to identify potential risks in their relationship
+
+**Usage**:
+```bash
+# Scan risks
+python scripts/scan_risk.py \
+  --over_dependence 8 \
+  --emotional_manipulation 3 \
+  --value_conflict 4 \
+  --communication_block 2
+```
+
+#### Case 3: Analyze Hybrid Features
+**Scenario**: User's partner shows mixed characteristics
+
+**Usage**:
+```bash
+# Analyze hybrid patterns
+python scripts/analyze_hybrid.py \
+  --maid_score 7 \
+  --concubine_score 6 \
+  --empress_score 4
+```
+
+### Skill Structure
+
+```
+ProClaw-Partner-insight/
+├── SKILL.md                    # Main entry and guide
+├── scripts/                    # Executable tools
+│   ├── assess_partner.py      # Pattern assessment
+│   ├── scan_risk.py           # Risk scanning
+│   ├── analyze_hybrid.py      # Hybrid pattern analysis
+│   └── support_decision.py    # Decision support
+├── references/                 # Reference documents
+│   ├── assessment-model.md    # Assessment model
+│   ├── decision-tree.md       # Decision tree
+│   ├── tracking-framework.md  # Tracking framework
+│   ├── hybrid-identifier.md   # Hybrid identifier
+│   ├── risk-warning-system.md # Risk warning system
+│   └── decision-matrix.md     # Decision matrix
+└── assets/                    # Resources
+    ├── templates/             # Templates
+    ├── tables/                # Tables and checklists
+    └── faq/                   # FAQ
+```
+
+### Author Information
+- **Author**: ProClaw
+- **Website**: www.proclaw.top
+- **Contact**: wechat:Mr-zifang
+- **Version**: 1.1
+
+### Version History
+- **v1.1** (2025-04-25): Added author information, renamed to ProClaw-Partner-insight
+- **v1.0** (2025-04-25): Initial release with complete pattern identification system
 
 ### 快速开始
 
